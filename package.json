@@ -1,0 +1,25 @@
+{
+  "name": "qrawlr-lang",
+  "displayName": "Qrawlr Lang",
+  "description": "Qrawlr Grammar Language Syntax Highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "qrawlr",
+      "aliases": ["Qrawlr Grammar", "qrawlr"],
+      "extensions": ["qgr"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "qrawlr",
+      "scopeName": "source.qrawlr",
+      "path": "./syntaxes/qrawlr.tmLanguage.json"
+    }]
+  }
+}
