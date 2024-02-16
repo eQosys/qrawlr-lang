@@ -2,9 +2,15 @@
   "name": "qrawlr-lang",
   "displayName": "Qrawlr Lang",
   "description": "Qrawlr Grammar Language Syntax Highlighting",
-  "version": "0.0.1",
+  "icon": "images/eQosys-logo-round.png",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.85.0"
+  },
+  "publisher": "TecStylos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eQosys/qrawlr-lang"
   },
   "categories": [
     "Programming Languages"
